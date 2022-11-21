@@ -3,7 +3,7 @@ import IncomeList from "./IncomeList";
 
 const Incomeitems = ({ income, setIncome }) => {
   const removeicon = (i) => {
-    const temp = income.filter((v, index) => index != i);
+    const temp = income.filter((v, index) => index !== i);
     setIncome(temp);
   };
 

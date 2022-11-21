@@ -9,8 +9,8 @@ const IncomeForm = ({ income, setIncome }) => {
     e.preventDefault();
     if (
       desc.current.value !== "" &&
-      price.current.value != "" &&
-      date.current.value != " "
+      price.current.value !== "" &&
+      date.current.value !== " "
     ) {
       setIncome([
         ...income,
