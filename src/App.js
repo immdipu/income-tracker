@@ -16,7 +16,7 @@ function App() {
   }, [income])
 
   return (
-    <div className="w-[90%] m-auto border mt-16">
+    <div className="w-[90%] m-auto mt-16">
       <Header totalIncome={totalIncome} />
       <IncomeForm income={income} setIncome={setIncome} />
       <Incomeitems income={income} setIncome={setIncome} />
